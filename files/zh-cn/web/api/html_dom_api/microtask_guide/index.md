@@ -79,7 +79,7 @@ customElement.prototype.getData = url => {
       this.cache[url] = data;
       this.data = data;
       this.dispatchEvent(new Event("load"));
-    )};
+    });
   }
 };
 ```
